@@ -75,7 +75,7 @@ export async function GET(request: Request) {
                 textWrap: "balance",
               }}
             >
-              {person.name}
+              {person.firstName}
             </span>
             <span
               style={{

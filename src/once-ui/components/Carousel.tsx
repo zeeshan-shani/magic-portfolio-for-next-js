@@ -19,7 +19,7 @@ interface CarouselProps extends React.ComponentProps<typeof Flex> {
 const Carousel: React.FC<CarouselProps> = ({
   images = [],
   indicator = "line",
-  aspectRatio = "16 / 9",
+  aspectRatio = "18 / 9",
   sizes,
   revealedByDefault = false,
   ...rest

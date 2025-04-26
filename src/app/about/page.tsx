@@ -60,7 +60,7 @@ export default function About() {
         path={about.path}
         image={`${baseURL}/og?title=${encodeURIComponent(about.title)}`}
         author={{
-          name: person.name,
+          name: person.firstName,
           url: `${baseURL}${about.path}`,
           image: `${baseURL}${person.avatar}`,
         }}
@@ -139,7 +139,7 @@ export default function About() {
               </Flex>
             )}
             <Heading className={styles.textAlign} variant="display-strong-xl">
-              {person.name}
+              {person.firstName}
             </Heading>
             <Text
               className={styles.textAlign}

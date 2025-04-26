@@ -27,7 +27,7 @@ interface LogoProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
 }
 
 const Logo: React.FC<LogoProps> = ({
-  size = "m",
+  size = "xl",
   wordmark = true,
   icon = true,
   href,

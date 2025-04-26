@@ -29,7 +29,7 @@ export default function Home() {
         description={home.description}
         image={`${baseURL}/og?title=${encodeURIComponent(home.title)}`}
         author={{
-          name: person.name,
+          name: person.firstName,
           url: `${baseURL}${about.path}`,
           image: `${baseURL}${person.avatar}`,
         }}

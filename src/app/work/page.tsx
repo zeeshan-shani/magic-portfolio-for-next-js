@@ -25,7 +25,7 @@ export default function Work() {
         description={work.description}
         image={`${baseURL}/og?title=${encodeURIComponent(work.title)}`}
         author={{
-          name: person.name,
+          name: person.firstName,
           url: `${baseURL}${about.path}`,
           image: `${baseURL}${person.avatar}`,
         }}

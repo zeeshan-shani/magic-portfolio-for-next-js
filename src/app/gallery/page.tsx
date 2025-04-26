@@ -25,7 +25,7 @@ export default function Gallery() {
         path={gallery.path}
         image={`${baseURL}/og?title=${encodeURIComponent(gallery.title)}`}
         author={{
-          name: person.name,
+          name: person.firstName,
           url: `${baseURL}${gallery.path}`,
           image: `${baseURL}${person.avatar}`,
         }}
