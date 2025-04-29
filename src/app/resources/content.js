@@ -113,7 +113,7 @@ const about = {
       {
         company: "Independent | Self-Employed",
         timeframe: "2024 - Present",
-        role: "Full-Stack Consultant & Product Engineer",
+        role: "Full-Stack Developer & Product Engineer",
         achievements: [
           <>
             Partnered with entrepreneurs, startups, coaches, and businesses
