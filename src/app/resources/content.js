@@ -111,7 +111,7 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "Independent | Self-Employed",
+        company: "Self-Employed",
         timeframe: "2024 - Present",
         role: "Full-Stack Developer & Product Engineer",
         achievements: [
@@ -259,7 +259,7 @@ const about = {
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-next-1.png",
+            src: "/images/projects/project-01/Cover-next-1.png",
             alt: "Frontend Development Showcase",
             width: 18,
             height: 9,
