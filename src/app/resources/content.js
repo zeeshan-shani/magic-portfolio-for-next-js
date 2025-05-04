@@ -9,7 +9,7 @@ const person = {
   role: "Full-Stack Engineer",
   avatar: "/images/avatar-1.png",
   email: "zeedev063@gmail.com",
-  location: "America/New_York", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Pakistan/Islamabad", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -148,7 +148,7 @@ const about = {
       },
       {
         company: "Octathorn",
-        timeframe: "2023 - 2025",
+        timeframe: "2023 - Present",
         role: "Senior Full-Stack Engineer",
         achievements: [
           <>
