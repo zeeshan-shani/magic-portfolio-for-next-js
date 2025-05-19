@@ -71,9 +71,9 @@ const HowWeWork: React.FC = () => {
           </Text>
 
           <Flex
-            wrap="wrap"
+            wrap
             gap="32"
-            justify="center"
+            horizontal="center"
             paddingTop="48"
             as="ol"
             aria-label="Creative process steps"
