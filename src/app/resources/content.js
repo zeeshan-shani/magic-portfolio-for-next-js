@@ -67,14 +67,13 @@ const home = {
   },
   subline: (
     <>
-      I'm Zee, a Full-Stack Engineer at &nbsp;
+      I'm Zee, a Full-Stack Engineer. &nbsp;
       {/* <Logo
         icon={false}
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
       /> */}
-      <strong className="text-primary">Upwork</strong>. , where I craft
-      intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      {/* <strong className="text-primary">Upwork</strong>. , where  */}
+      <br /> Transforming Concepts into High-Impact Digital Products.
     </>
   ),
 };
@@ -148,8 +147,8 @@ const about = {
       },
       {
         company: "Octathorn",
-        timeframe: "2023 - Present",
-        role: "Senior Full-Stack Engineer",
+        timeframe: "Dec-2023 - May-2025",
+        role: "Full-Stack Engineer",
         achievements: [
           <>
             Spearheaded the development of multiple SaaS platforms, including
@@ -181,6 +180,48 @@ const about = {
           },
           {
             src: "/images/projects/project-01/cover-octa-1.png",
+            alt: "Independent Client Projects",
+            width: 18,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "SEDS",
+        timeframe: "Jan-2023 - Nov-2023",
+        role: "Full-Stack Engineer",
+        achievements: [
+          <>
+            Worked as part of a cross-functional product team to deliver
+            enterprise-grade, pixel-perfect frontend experiences in a fast-paced
+            Agile environment. Contributed to scalable design systems and
+            component architecture while collaborating closely with UI/UX
+            designers, product owners, and backend developers.
+          </>,
+          <>
+            Engineered responsive and high-performance interfaces using
+            React.js, Material UI, Tailwind CSS, and Lottie animations,
+            improving user engagement and time-on-page metrics.
+          </>,
+          <>
+            Leveraged state management patterns (Redux and Context API) to build
+            maintainable and predictable UI logic across multiple screens and
+            workflows.
+          </>,
+          <>
+            UI consistency and scalability by contributing to a centralized
+            component library and implementing a modular CSS architecture.
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-seds-1.png",
+            alt: "Independent Client Projects",
+            width: 18,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-seds-2.jpg",
             alt: "Independent Client Projects",
             width: 18,
             height: 9,
